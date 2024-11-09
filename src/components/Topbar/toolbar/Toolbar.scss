@@ -1,0 +1,22 @@
+.toolbar {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .time-edit {
+    font-size: 14px;
+  }
+
+  .profiles {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .profile-invt {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

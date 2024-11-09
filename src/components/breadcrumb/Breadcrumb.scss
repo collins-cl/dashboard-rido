@@ -1,0 +1,32 @@
+.breadcrumb {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .separator {
+      margin: 0 5px;
+      color: #aaa;
+    }
+
+    .active-crumb {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

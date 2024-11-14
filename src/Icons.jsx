@@ -47,6 +47,8 @@ import { HiOutlineDotsHorizontal } from "react-icons/hi";
 import { RiCircleFill } from "react-icons/ri";
 import { LuBellPlus, LuMail } from "react-icons/lu";
 import { TfiViewListAlt } from "react-icons/tfi";
+import { TbBellRingingFilled } from "react-icons/tb";
+import { BiSolidMessageAdd } from "react-icons/bi";
 
 export {
   BiCoinStack,
@@ -91,4 +93,6 @@ export {
   FaQuestion,
   IoSettingsOutline,
   MdLogout,
+  TbBellRingingFilled,
+  BiSolidMessageAdd,
 };

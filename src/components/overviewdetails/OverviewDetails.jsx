@@ -16,6 +16,7 @@ import {
 } from "../../Icons";
 import Calendar from "../../assets/calendar.jpg";
 import { useState } from "react";
+import Mailing from "../mailing/Mailing";
 
 const OverviewDetails = () => {
   const [selected, setSelected] = useState("schedule");
@@ -251,7 +252,12 @@ const Directory = ({ selected }) => {
 
     case "documents":
       return <div>documents</div>;
+
+    case "task":
+      return <div>documents</div>;
+
+    case "mailing":
+      return <Mailing />;
   }
 };
-
 export default OverviewDetails;

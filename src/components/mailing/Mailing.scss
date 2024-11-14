@@ -1,0 +1,53 @@
+.mailing-sect {
+
+  .mailing-temp {
+    margin-top: 10px;
+
+    .title {
+      font-size: 17px;
+    }
+
+    .options {
+      margin-top: 1em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .opt-cards {
+        width: 280px;
+        height: 80px;
+        padding: 0 0.8em;
+        border-radius: 8px;
+        border: 2px solid rgba(188, 188, 188, 0.26);
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+
+        .icon {
+          font-size: 24px;
+        }
+
+        .icon.mail {
+          rotate: -30deg;
+          fill: rgb(11, 183, 11);
+        }
+
+        .info {
+          p {
+            font-weight: bold;
+            font-size: 15px;
+          }
+
+          span {
+            color: rgb(136, 136, 136);
+            font-size: 12px;
+            //   margin-top: -3px;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+
+}

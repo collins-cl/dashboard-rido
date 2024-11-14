@@ -1,10 +1,9 @@
 .mailing-sect {
-
   .mailing-temp {
     margin-top: 10px;
 
     .title {
-      font-size: 17px;
+      font-size: 16px;
     }
 
     .options {
@@ -28,7 +27,7 @@
         }
 
         .icon.mail {
-          rotate: -30deg;
+          rotate: -20deg;
           fill: rgb(11, 183, 11);
         }
 
@@ -49,5 +48,210 @@
     }
   }
 
+  .mailing-post {
+    margin-top: 1em;
 
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .new-mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid rgba(188, 188, 188, 0.26);
+
+        span {
+          display: block;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .mail-content {
+      width: 100%;
+      height: 350px;
+      margin-top: 1em;
+      border-radius: 10px;
+      background-color: rgba(250, 250, 250);
+      border: 2px solid rgba(188, 188, 188, 0.26);
+
+      .no-mail-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .info {
+          width: 25%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+
+          .icon {
+            font-size: 6em;
+          }
+
+          p {
+            line-height: 1.1;
+            font-size: 15px;
+            color: rgb(79, 79, 79);
+          }
+        }
+      }
+    }
+  }
+}
+
+.custom-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35%;
+  height: 100vh;
+  background-color: white;
+
+  .custom-modal-header {
+    height: 65px;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(238, 238, 238, 0.619);
+
+    span {
+      display: block;
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+
+  .new-mail-cnt {
+    padding: 1.5em;
+    height: 100%;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .header {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .profile {
+      margin-top: 1em;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      .img {
+        width: 45px;
+        height: 45px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .info {
+        p {
+          font-size: 14px;
+          font-weight: 600;
+        }
+
+        span {
+          display: block;
+          font-size: 13px;
+          font-weight: 600;
+          color: rgb(103, 103, 103);
+        }
+      }
+    }
+
+    form {
+      .form-cnt {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        margin-top: 2em;
+
+        .first-sect {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          padding: 20px 15px;
+          border-radius: 10px;
+          border: 2px solid rgba(188, 188, 188, 0.26);
+
+          .head {
+            font-size: 14px;
+            font-weight: 600;
+          }
+
+          .subject {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            label {
+              font-size: 13px;
+            }
+
+            input {
+              height: 35px;
+              padding: 0 10px;
+              border-radius: 10px;
+              border: 1px solid rgba(188, 188, 188, 0.73);
+            }
+
+            textarea {
+              height: 150px;
+              padding: 10px;
+              border-radius: 10px;
+              border: 1px solid rgba(188, 188, 188, 0.73);
+            }
+          }
+
+          .variables {
+            .prompt {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              p {
+                font-size: 14px;
+              }
+
+              input {
+                width: 8px;
+                padding: 0 3px;
+              }
+            }
+          }
+        }
+
+        .second-sect{
+          
+        }
+      }
+    }
+  }
 }

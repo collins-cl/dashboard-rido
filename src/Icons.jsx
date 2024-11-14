@@ -26,6 +26,7 @@ import {
   FaRegCircle,
   FaStar,
   FaQuestion,
+  FaRegFloppyDisk,
 } from "react-icons/fa6";
 import { PiHandHeart, PiNotepadFill, PiHandHeartFill } from "react-icons/pi";
 import { BiCoinStack } from "react-icons/bi";
@@ -49,6 +50,8 @@ import { LuBellPlus, LuMail } from "react-icons/lu";
 import { TfiViewListAlt } from "react-icons/tfi";
 import { TbBellRingingFilled } from "react-icons/tb";
 import { BiSolidMessageAdd } from "react-icons/bi";
+import { FcOpenedFolder } from "react-icons/fc";
+import { LiaTimesSolid } from "react-icons/lia";
 
 export {
   BiCoinStack,
@@ -95,4 +98,7 @@ export {
   MdLogout,
   TbBellRingingFilled,
   BiSolidMessageAdd,
+  FcOpenedFolder,
+  FaRegFloppyDisk,
+  LiaTimesSolid,
 };
